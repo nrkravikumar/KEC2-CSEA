@@ -1,0 +1,117 @@
+Day-03[28-09-2024]:
+===================
+	Good Morning All..
+
+
+Loops:
+------
+	- To iterate a statement for n number of times untill the condition is false
+	- for => known ranges
+	- while => known and unknown ranges
+	
+	For
+	---
+		Syntax:
+		    for iterationvariablename in range(start,stop,step):
+		        //statements
+		                        or
+		    for iterationvariablename in iterator:
+		        //statements
+		    
+		    Iterators: List,tuple,string,set and dictionary
+	range:
+	------
+	Syntax:
+		- range(stop):
+		    - By default it starts with 0
+		    - It increments with +1 value
+		    - It stops with stop-1 value
+		    Ex: range(5)
+		        0 1 2 3 4
+		- range(start,stop):
+		    - It starts exactly with start value
+		    - It increments with +1 value
+		    - It stops with stop-1 value
+		    Ex: range(1,6)
+		        1 2 3 4 5
+		- range(start,stop,step):
+		    - It starts exactly with start value
+		    - It increments/decrements with step value
+		    - It stops with stop-1 value
+		    Ex: range(1,10,3)
+		        1 4 7
+
+	While:
+	------
+		Syntax:
+		    variableinitialisation
+		    while condition:
+		        //statements
+		        incr/decr
+
+Jumping Statements:
+-------------------
+	=> These statements can be used in inside of loops with a conditional statements
+	- break => To exit from a loop
+	- continue => It skips a value and executes entire loop
+	- pass => same as continue but for future enhancements we prefere pass for implementing different logic
+	- return => It is used in function and returns single or multiple values
+
+Nested or Inner Loop:
+---------------------
+	- Loop within a Loop
+
+Data Structures:
+----------------
+	- To organise the data in order or unorder format
+	- List
+	- Tuple
+	- Set
+	- Dictionary
+	- String
+
+List:
+-----
+	- It can be represented as [] and seperated with , values
+	- It can changes a value
+	- It stores data in ordered format
+	- It allows duplicate values
+	- Slicing can be done because of index
+	- It stores all data type values
+	- It can be typecasted as list()
+
+Tuple:
+------
+	- It can be represented as () and seperated with , values
+	- It stores data in ordered format
+	- It allows all data type values
+	- It allows duplicate values
+	- It can be type casted as tuple()
+	- Slicing can be done because of index
+	- It can't changes a value
+
+Set:
+----
+	- It can be represeted as {} with some value in it
+	- It stores data in unordered format and ordering in kernel
+	- It doesnt allows duplicate values
+	- It can be type casted as set()
+	- It stores all data type values
+	- Slicing can't be done because of no index
+	- It can changes a value
+
+Dictionary:
+-----------
+	- It stores data in key and value pairs
+	- It can be represented as empty {} by default it is a dictionary
+	- It can be type casted as dict()
+	- Slicing can be done by using their methods
+	- Keys can't be duplicate but values can stores duplicate items
+	- It allows all data type values
+	- It stores data in ordered format with key and value pairs
+
+Task:
+=====
+	- Functions and its types
+	- Function argument types
+	

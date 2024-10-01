@@ -1,0 +1,58 @@
+Day-04[30-09-2024]:
+===================
+	Good Morning All...
+
+	Functions:
+	==========
+		- Block of statements to perform a specific task
+		- To break a complex problem statement into modules to perform a better solution
+		Syntax:
+		    def functionname(arguments):
+		        //statements
+		        return return_value
+		- 2 Types
+		    => Predefined => Work is already fixed
+		    => User Defined => User need to fix a task
+	User Defined Functions:
+	=======================
+		- with returntype and with arguments
+		- with returntype and without arguments
+		- without returntype and with arguments
+		- without returntype and without arguments
+	
+	With returntype and with arguments:
+	-----------------------------------
+		Reading => Main
+		Printing => Main
+		Logic => Function
+
+	With returntype and without arguments:
+	--------------------------------------
+		Reading => Function
+		Printing => Main
+		Logic => Function
+
+	Without returntype and with arguments:
+	--------------------------------------
+		Reading => Main
+		Printing => Function
+		Logic => Function
+
+	Without returntype and without arguments:
+	-----------------------------------------
+		Reading => Function
+		Printing => Function
+		Logic => Function
+
+	Function Argument Types:
+	========================
+		- Default 
+		- Keyword
+		- Required or Positional
+		- Variable Length
+		    - Arbitary Positional
+		    - Arbitary Keyword 
+
+	Reference:
+	==========
+		- https://github.com/AP-Skill-Development-Corporation/AITS-CSE-Python

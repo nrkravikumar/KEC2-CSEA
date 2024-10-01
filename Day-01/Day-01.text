@@ -1,0 +1,191 @@
+Day-01[24-09-2024]:
+===================
+	Good Morning All..
+
+	Python Versions:
+	----------------
+		- Python 2.x [Older Version]
+		- Python 3.x [Latest Version]
+
+	Variable:
+	---------
+		- To Store a value and to change a value
+		Syntax:
+			variable_name = value
+
+	Types of Variable Assignment:
+	-----------------------------
+		- Single_variable = single_value
+			Ex:
+				a = 10
+				b = "Prasad"
+		- n number of variables = n number of different types of values
+			Ex:
+				g,n,m = 150,230.01,"Lokesh"
+		- n number of variables = single value
+			Ex:
+				d = h = k = 158
+		- single_variable = n number of different types of values
+			Ex:
+				c = "56",89.12
+
+	Operators:
+	----------
+		- Arithmetic => +,-,*,/,%,floor division(//),Exponent(**)
+			** Used for Mathematical Expressions
+		- Logical => AND,OR,XOR
+			** Used in between 2 conditions
+			** Final output will be either True or False
+		- Relational => ==,!=,>,<,>=,<=
+			** Used in between the operand and value
+		- Bitwise => &&,||,!,>>,<<
+			** Used in between 2 conditions
+			** Final output will be value
+		- Assignment => +=,-=,/=,*=,%=,//=,**=
+			** Used in Inner Loops or else in an expression
+		- Membership => in,not in
+			** Used in an iterators
+		- Identity => is, is not
+			** Used in strings to compare the address of a character or a string
+
+	Data Types:
+	-----------
+		- int => only integer values
+		- float => only integer and decimal values
+		- string => enclosed with ' or "
+		- boolean => either True or False
+		- complex => real and imaginary values
+		- All Data Structures like [list,tuple,set and dictionary]
+
+	TypeCasting:
+	------------
+		- To change from one data type of value to another data type value
+		- int()
+		- float()
+		- str()
+		- bool()
+		- complex()
+		- All data structures like [list(),set(),tuple(),dict()]
+
+	Input Formatting:
+	-----------------
+		- It will displays the info to a user 
+		- It reads a data from a user
+		- By default it stores string data type value
+		Syntax:
+			variablename = input("info to a user")
+		Ex:
+			a = input("Enter a value: ")
+
+	Output Formatting:
+	------------------
+		- , +
+		- format specifiers (% -> no need of () for single variable)
+							(%d -> integer, %s -> string, %f -> float)
+		- .format
+		- f string	
+
+	Conditional Statements:
+	-----------------------
+        - To check whether a given condition is either True or False
+        - if => single case
+        - if-else => two cases
+        - nested if => 3 or more cases
+        - elif => 3 or more but based on preferences
+
+    If:
+    ---
+    	Syntax:
+    		if condition:
+    			//statements
+    	Note: () is optional
+	
+	If-else:
+    --------
+    	Syntax:
+    		if condition:
+    			//statements [True]
+    		else:
+    			//statements [False]
+    	Note: () is optional based on condition the statement will be executed   
+
+    elif ladder:
+    ------------
+    	Syntax:
+    		if condition-1:
+    			//statement-1
+    		elif condition-2:
+    			//statement-2
+    			|        |
+    		elif condition-n:
+    			//statement-(n)
+    		else:
+    			//statement-(n-2)
+    	Note: () is optional
+    
+    Nested if:
+    ----------
+    	Syntax:
+    		if condition-1:
+    			if condition-2:
+    				//statement-1
+    			else:
+    				//statement-2
+    		else:
+    			//statement-n
+    	Note: () is optional inside of if we can define if or if else or nested if or elif its based on requirement we need to prefer
+
+    Loops or Iterations or Repitions:
+    ---------------------------------
+    	- To control the flow of execution untill the condition is false
+    	- for => For particular range
+    	- while => for known and unknown ranges
+
+	Task:
+	-----
+		- Introduction to Python
+		- History of Python
+		- Applications of Python
+		- Advantages and Disadvantages
+
+	Example-1:
+	==========
+		Input-1:
+		-------
+			45
+			89.45
+		Output-1:
+		--------
+			Entered numbers are: 45,89.45
+			Entered first number is 45 it is Odd number
+			Entered second number is 89.45 and it is Odd number
+		Input-2:
+		-------
+			10
+			80.15
+		Output-2:
+		--------
+			Entered numbers are: 10,80.15
+			Entered first number is 10 it is Even number
+			Entered second number is 80.15 and it is Even number
+		Input-3:
+		-------
+			2
+			75.15
+		Output-3:
+		--------
+			Entered numbers are: 2,75.15
+			Entered first number is 2 it is Even number
+			Entered second number is 75.15 and it is Odd number
+
+	Example-2:
+	==========
+		Expression: 3x^3 + 5y^2 + 2z
+		Input:
+		------
+			Enter a number: 12
+			Enter b number: 5
+			Enter c number: 6
+		Output:
+		-------
+			Entered expression 3x^3 + 5y^2 + 2z and value is:  5321
